@@ -6,6 +6,17 @@ Then using the generated path/motion commands, easily send them to a Turtlebot2 
 ## App Details
 ![Capture](https://user-images.githubusercontent.com/25622095/58276817-666bfc80-7d66-11e9-9349-f4a72568f4e6.PNG)
 
+**General Use**
+
+Step 1: Using the waypoint control module, add at least 3 waypoints according to their x any y locations relative to the starting location and orientation of the robot.
+
+Step 2: 
+
+
+
+
+
+
 **Waypoint Control**: Module that controls adding, removing, saving, and loading waypoints. Most functions require at least 3 waypoints to be added to the map. Waypoints are entered by adding x,y coordinates (Note that the robot assumes its starting potison is x=0, y=0, theta=0)
 
 **Generate Path**: Once the waypoints are added, the generate path button can be used to create a series of commands to follow the waypoint path as genereated by a purepursuit controller and motion model.
