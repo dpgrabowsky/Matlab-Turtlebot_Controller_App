@@ -12,7 +12,7 @@ Step 1: Using the waypoint control module, add at least 3 waypoints according to
 
 Step 2: Choose method of path generation (Toggle Live PP):
 
-    a) Live Pure-Pursuit (PP): Path/MotionCommands are generated according to pure-pursuit algorithm on the fly according to feedback from wheel endcoders
+    a) Live Pure-Pursuit (PP): Path/MotionCommands are generated according to pure-pursuit algorithm on the fly according to feedback from /odom topic.
     
     b) Offline Pure-Pursuit (PP): Path/MotionCommands are generated offline assuming that Turtlebot kinematic motion model represents perfect motion.
 
